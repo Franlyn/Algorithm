@@ -1,0 +1,22 @@
+Web development
+1. What's the different between GET and POST?
+Both are methods used in HTTP requests. Generally it is said that GET is to download data and PUT is to upload data. But we can do both downloading as well as uploading either by GET/POST.
+
+GET:
+
+If we are sending parameters in a GET request to the server, then those parameters will be visible in the URL, because in GET, parameters are append to the URL. So there’s a lack of security while uploading to the server.
+We can only send a limited amount of data in a GET request, because the URL has its max limit and we can not append a long data string to the URL.
+POST:
+
+If we are using POST then we are sending parameters in the body section of a request. If we send data after using encryption in the body of an http request, it’s quite a bit more secure.
+We can transmit a lot more data using POST.
+Note: GET is faster in the case of just getting data using a static API call in cases where we don’t have to pass any parameters.
+
+
+#################### CSS #####################
+class vs. id
+Use id to identify elements that there will only be a single instance of on a page. For instance, if you have a single navigation bar that you are placing in a specific location, use id="navigation".
+#idname{}
+
+Use class to group elements that all behave a certain way. For instance, if you want your company name to appear in bold in body text, you might use <span class='company'>
+.classname{}
